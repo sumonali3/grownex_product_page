@@ -3,7 +3,10 @@ module.exports = {
   content: [
     // Your content paths here, e.g.,
     "./index.html",
-    "./src//*.{js,ts,jsx,tsx}",
+    "./single-product.html",
+    //"./src//*.{js,ts,jsx,tsx}",
+    './js/**/*.js',
+    './css/**/*.css'
   ],
   theme: {
     extend: {

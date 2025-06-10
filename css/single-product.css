@@ -1,0 +1,26 @@
+/* Prefixed Custom CSS */
+
+        /* donation-form-section */
+        .donation-form-input-container { position: relative; display: flex; align-items: center; }
+        .donation-form-aud-prefix { position: absolute; left: 1rem; color: #9CA3AF; font-weight: 500; pointer-events: none; }
+        .donation-form-amount-input { padding-left: 3.75rem; border: 1px solid; border-radius: 0.5rem; width: 100%; padding-top: 0.75rem; padding-bottom: 0.75rem; padding-right: 1rem; font-weight: 600; }
+        .donation-form-payment-logo { height: 24px; opacity: 0.7; filter: grayscale(50%); }
+        .donation-form-giving-hands-logo .logo-text-main { color: #1F2937; }
+        .donation-form-giving-hands-logo .logo-text-accent { color: #14B8A6; }
+        .donation-form-giving-hands-logo .logo-icon-main { fill: #1F2937; }
+        .donation-form-giving-hands-logo .logo-icon-accent { fill: #14B8A6; }
+
+        /* image-gallery-section */
+        .image-gallery-featured-image { transition: opacity 0.5s ease-in-out; }
+
+        /* testimonial-carousel-section */
+        .testimonial-carousel-card::after { content: ''; position: absolute; left: 24px; bottom: -10px; width: 20px; height: 20px; background-color: white; transform: rotate(45deg); z-index: 1; border-radius: 4px; border-right: 1px solid #E5E7EB; border-bottom: 1px solid #E5E7EB; }
+
+        /* faq-section -- REBUILT FOR SMOOTH TOGGLE */
+        .faq-item .faq-question { cursor: pointer; }
+        .faq-item .faq-question-text.active { color: #14B8A6; }
+        .faq-item .faq-minus-icon { display: none; }
+        .faq-item.active .faq-minus-icon { display: inline-block; }
+        .faq-item.active .faq-plus-icon { display: none; }
+        /* Hide answer by default */
+        .faq-answer-content { display: none; }
